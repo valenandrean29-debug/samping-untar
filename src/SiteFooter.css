@@ -1,0 +1,28 @@
+.site-footer {
+  --footer-cream: #fff2d8;
+  --footer-red: #9c2031;
+  --footer-ink: #57272a;
+  padding: clamp(2.75rem, 7vw, 5rem) clamp(1rem, 5vw, 4rem) 1rem;
+  background: var(--footer-ink);
+  color: var(--footer-cream);
+}
+
+.site-footer__inner { width: min(100%, 1120px); margin-inline: auto; }
+.site-footer__feedback { width: min(100%, 42rem); margin-inline: auto; text-align: center; }
+.site-footer__eyebrow { margin: 0 0 .5rem; color: #f2c264; font-family: 'VT323', monospace; font-size: 1.45rem; letter-spacing: .09em; text-transform: uppercase; }
+.site-footer__title { margin: 0; color: var(--footer-cream); font-family: 'Press Start 2P', 'Courier New', monospace; font-size: clamp(1rem, 2.8vw, 1.5rem); line-height: 1.6; }
+.site-footer__copy { margin: .65rem 0 1.35rem; font-family: 'VT323', monospace; font-size: 1.5rem; line-height: 1.2; }
+.feedback-form__submit { display: inline-flex; min-height: 3rem; align-items: center; gap: .5rem; padding: .6rem 1rem; border: 2px solid #32151a; border-radius: .25rem; background: #f2c264; box-shadow: 4px 4px 0 #32151a; color: var(--footer-ink); font-family: 'Press Start 2P', 'Courier New', monospace; font-size: .62rem; line-height: 1.5; text-decoration: none; cursor: pointer; }
+.feedback-form__submit:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 #32151a; background: #ffdc8e; }
+.feedback-form__submit:focus-visible { outline: 3px solid #fff2d8; outline-offset: 4px; }
+.site-footer__bottom { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: clamp(2rem, 5vw, 3.5rem); padding-top: 1rem; border-top: 1px dashed rgb(255 242 216 / 35%); text-align: center; }
+.site-footer__bottom p { margin: 0; font-family: 'VT323', monospace; font-size: 1.25rem; }
+.site-footer__pixel { color: #f2c264; font-size: 1.1rem; }
+
+@media (max-width: 480px) {
+  .site-footer { padding-inline: 1rem; }
+  .site-footer__title { font-size: .95rem; }
+  .site-footer__copy { font-size: 1.3rem; }
+  .site-footer__bottom { gap: .45rem; }
+  .site-footer__bottom p { font-size: 1.05rem; }
+}
