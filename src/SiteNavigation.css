@@ -14,15 +14,17 @@
 }
 
 .site-nav__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
   color: #fff2d8;
-  font-family: 'Press Start 2P', 'Courier New', monospace;
-  font-size: clamp(.62rem, 1.5vw, .82rem);
-  line-height: 1.7;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.site-nav__brand span { color: #f2c264; }
+.site-nav__mark { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; border: 2px solid #3d1b20; border-radius: .25rem; background: #fff2d8; box-shadow: 3px 3px 0 #3d1b20; color: #9c2031; font-family: 'Press Start 2P', 'Courier New', monospace; font-size: .7rem; }
+.site-nav__name { color: #fff2d8; font-family: 'Press Start 2P', 'Courier New', monospace; font-size: clamp(.62rem, 1.5vw, .82rem); line-height: 1.7; }
+.site-nav__name span { color: #f2c264; }
 .site-nav__links { display: flex; align-items: center; gap: clamp(.35rem, 2vw, 1.5rem); }
 .site-nav__link { padding: .55rem .65rem; color: #fff2d8; font-family: 'VT323', monospace; font-size: clamp(1.2rem, 2.2vw, 1.6rem); text-decoration: none; white-space: nowrap; }
 .site-nav__link:hover { color: #f2c264; }
@@ -32,7 +34,9 @@
 
 @media (max-width: 480px) {
   .site-nav { min-height: 3.8rem; gap: .3rem; padding: .5rem .65rem; }
-  .site-nav__brand { font-size: .52rem; }
+  .site-nav__brand { gap: .45rem; }
+  .site-nav__mark { width: 2rem; height: 2rem; font-size: .55rem; }
+  .site-nav__name { font-size: .52rem; }
   .site-nav__links { gap: .1rem; }
   .site-nav__link { padding: .45rem .35rem; font-size: 1.1rem; }
 }

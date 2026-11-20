@@ -16,5 +16,6 @@ Use this guide as the continuing visual direction for the Samping Untar student 
 - **About kios behavior:** “Tentang Kios” opens an accessible pixel-styled dialog with a short sourced description, source link, and reminder that menu availability can change.
 - **Order button behavior:** each kiosk stores its own WhatsApp number in `KiosSection.jsx`; normalize local Indonesian numbers to country code 62 and prefill a polite order message. Keep the button visibly disabled until a number is supplied.
 - **Navigation and footer:** sticky maroon pixel-style navbar links only to hero, kios list, and suggestions. Footer links to the configured Google Form and shows “© 2026 Valenmamae”. The coming-soon kiosk card links to the kiosk submission form.
+- **Site mark:** use the custom pixel “SU” initials in `public/su-favicon.svg` as the browser favicon and in the navbar, in maroon, cream, and gold.
 - **Food photo in kiosk dialog:** place one supplied food photo above the short profile in each dialog; assets are in `public/food-*.png`, matched to each kiosk in `KiosSection.jsx`.
 - **Scope rule:** build only the requested sections; do not add extra page sections without a later request.
