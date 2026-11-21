@@ -65,6 +65,42 @@ const kiosks = [
     alt: 'Ilustrasi pixel-art kios Nasi Goreng Namura dengan papan krem-oranye dan fasad kuning',
     description: 'Nasi Goreng Namura menawarkan nasi goreng sebagai menu utamanya. Foto menu dari kios ditampilkan di atas.',
   },
+  {
+    name: 'Ayam Dedy Jaya Bang Bestie',
+    whatsappNumber: '0819-3126-6681',
+    image: '/ayam-dedy-jaya-bang-bestie-pixel.png',
+    foodImage: '/food-ayam-dedy-jaya-bang-bestie.png',
+    foodAlt: 'Nasi dengan ayam berbumbu kuning, sambal, dan lalapan',
+    alt: 'Ilustrasi pixel-art kios Ayam Dedy Jaya Bang Bestie berwarna kuning dan hijau toska',
+    description: 'Menu ayam dengan nasi, sambal, dan lalapan seperti yang terlihat pada foto menu kios.',
+  },
+  {
+    name: 'Mie Yamin Samping Untar',
+    whatsappNumber: '+62 821-1250-7867',
+    image: '/mie-yamin-samping-untar-1-pixel.png',
+    foodImage: '/food-mie-yamin-samping-untar.png',
+    foodAlt: 'Semangkuk mie yamin dengan bakso, sayuran, dan pangsit',
+    alt: 'Ilustrasi pixel-art kios Mie Yamin Samping Untar dengan banner putih-merah dan rangka kuning',
+    description: 'Mie Yamin Samping Untar menyajikan mie yamin dengan pelengkap seperti bakso dan pangsit, sesuai foto menu yang dikirim.',
+  },
+  {
+    name: 'Crisbar Ayam Crispy Bakar',
+    whatsappNumber: '0821-2121-4145',
+    image: '/crisbar-pixel.png',
+    foodImage: '/food-crisbar-ayam-crispy-bakar.png',
+    foodAlt: 'Ayam crispy bakar dengan nasi, sayuran, dan pelengkap di piring kuning',
+    alt: 'Ilustrasi pixel-art kios Crisbar dengan fasad putih-kuning dan papan nama hitam-kuning',
+    description: 'Ayam crispy bakar disajikan dengan nasi dan pelengkap seperti yang tampak pada foto menu kios.',
+  },
+  {
+    name: 'RM Sakato Jaya',
+    whatsappNumber: '+62 856-9738-9664',
+    image: '/rm-sakato-jaya-pixel.png',
+    foodImage: '/food-rm-sakato-jaya.png',
+    foodAlt: 'Hidangan nasi Padang dengan rendang, lauk goreng, sayur, dan sambal',
+    alt: 'Ilustrasi pixel-art warung Padang RM Sakato Jaya',
+    description: 'RM Sakato Jaya menyajikan hidangan bergaya rumah makan Padang. Foto menu memperlihatkan nasi dengan rendang, lauk, sayur, dan sambal.',
+  },
 ]
 
 const SUGGEST_KIOSK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScdN2MCeoCFSAfDLh-d1kMgvz98qISw34AxtEjxwfLvWgx0JA/viewform?usp=publish-editor'
