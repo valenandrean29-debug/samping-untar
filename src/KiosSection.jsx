@@ -47,6 +47,24 @@ const kiosks = [
     source: 'MenuKuliner.net',
     sourceUrl: 'https://menukuliner.net/menu/517013/sate-bang-dopir-tomang',
   },
+  {
+    name: 'Bakso & Soto Larissa Bahari',
+    whatsappNumber: '+62 878-9303-1472',
+    image: '/bakso-soto-larissa-bahari-pixel.png',
+    foodImage: '/food-bakso-soto-larissa-bahari.png',
+    foodAlt: 'Semangkuk bakso dengan bihun, seledri, dan bawang goreng',
+    alt: 'Ilustrasi pixel-art kios Bakso & Soto Larissa Bahari dengan papan kuning dan etalase',
+    description: 'Kios ini menawarkan pilihan bakso dan soto. Foto menu bakso ditampilkan sebagai gambaran hidangan yang bisa ditemukan di sini.',
+  },
+  {
+    name: 'Nasi Goreng Namura',
+    whatsappNumber: '+62 895-4135-28767',
+    image: '/nasi-goreng-namura-pixel.png',
+    foodImage: '/food-nasi-goreng-namura.png',
+    foodAlt: 'Nasi goreng dengan telur mata sapi di atas piring merah',
+    alt: 'Ilustrasi pixel-art kios Nasi Goreng Namura dengan papan krem-oranye dan fasad kuning',
+    description: 'Nasi Goreng Namura menawarkan nasi goreng sebagai menu utamanya. Foto menu dari kios ditampilkan di atas.',
+  },
 ]
 
 const SUGGEST_KIOSK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScdN2MCeoCFSAfDLh-d1kMgvz98qISw34AxtEjxwfLvWgx0JA/viewform?usp=publish-editor'
@@ -154,9 +172,11 @@ function KiosSection() {
               )}
             </div>
             <p className="kios-about__description">{selectedKiosk.description}</p>
-            <a className="kios-about__source" href={selectedKiosk.sourceUrl} target="_blank" rel="noreferrer">
-              Sumber info: {selectedKiosk.source} <span aria-hidden="true">↗</span>
-            </a>
+            {selectedKiosk.sourceUrl && (
+              <a className="kios-about__source" href={selectedKiosk.sourceUrl} target="_blank" rel="noreferrer">
+                Sumber info: {selectedKiosk.source} <span aria-hidden="true">↗</span>
+              </a>
+            )}
             <p className="kios-about__note">Menu dan ketersediaan dapat berubah. Konfirmasi langsung ke kios sebelum memesan.</p>
           </section>
         </div>
