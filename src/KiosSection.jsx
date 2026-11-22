@@ -101,6 +101,15 @@ const kiosks = [
     alt: 'Ilustrasi pixel-art warung Padang RM Sakato Jaya',
     description: 'RM Sakato Jaya menyajikan hidangan bergaya rumah makan Padang. Foto menu memperlihatkan nasi dengan rendang, lauk, sayur, dan sambal.',
   },
+  {
+    name: 'Kedai Ayam 23',
+    whatsappNumber: '+62 858 1799 9170',
+    image: '/kedai-ayam-23-pixel.png',
+    foodImage: '/food-kedai-ayam-23.png',
+    foodAlt: 'Nasi dengan ayam goreng, tempe, tahu, sambal, dan lalapan',
+    alt: 'Ilustrasi pixel-art kios Kedai Ayam 23 dengan tenda putih-marun dan aksen kuning',
+    description: 'Kedai Ayam 23 menyajikan hidangan ayam dengan nasi dan aneka pelengkap. Foto menu menampilkan ayam goreng, tahu, tempe, sambal, dan lalapan.',
+  },
 ]
 
 const SUGGEST_KIOSK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScdN2MCeoCFSAfDLh-d1kMgvz98qISw34AxtEjxwfLvWgx0JA/viewform?usp=publish-editor'
